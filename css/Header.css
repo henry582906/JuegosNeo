@@ -1,0 +1,45 @@
+header{
+    width: 100%;
+    height: auto;
+    background-color: var(--color-header);
+}
+
+.Logo{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+#LogoPrincipal{
+    width: auto;
+    height: 100%;
+}
+
+.categorias{
+    color: white;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.category{
+    flex: 1;
+}
+
+.category a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-family: var(--fuente-arial);
+}
+
+.category a:hover{
+    background: rgba(255, 255, 255, 0.1);
+}

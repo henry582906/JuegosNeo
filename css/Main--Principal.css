@@ -1,0 +1,60 @@
+.principal{
+    text-align: center;
+    background-color: var(--color-fondo);
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    font-family: var(--fuente-pixel);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.grid ul{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(auto, auto));
+    grid-template-rows: auto;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card a{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.card a:hover{
+    transform: scale(1.05);
+}
+
+.imgjuego{
+    width: 100%;
+    height: 150px;
+}
+
+.imgjuego img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.tgame{
+    width: 100%;
+    height: 50px;
+    background-color: var(--color-card);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tgame h2{
+    color: #808080;
+    font-family: var(--fuente-arial);
+}
