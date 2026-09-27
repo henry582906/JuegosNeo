@@ -16,9 +16,3 @@
 .error404 iframe{
     padding-top: 15px;
 }
-
-@media(max-width:992px){
-    .error404 iframe{
-        width: 300px;
-    }
-}
