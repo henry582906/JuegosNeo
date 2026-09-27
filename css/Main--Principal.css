@@ -2,7 +2,7 @@
     text-align: center;
     background-color: var(--color-fondo);
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
 h1{
@@ -57,4 +57,16 @@ h1{
 .tgame h2{
     color: #808080;
     font-family: var(--fuente-arial);
+}
+
+@media (max-width:992px){
+    .grid ul{
+        grid-template-columns: repeat(2, minmax(auto, auto));
+    }
+}
+
+@media (max-width:768px){
+    .grid ul{
+        grid-template-columns: repeat(1, minmax(auto, auto));
+    }
 }
